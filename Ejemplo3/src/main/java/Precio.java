@@ -9,17 +9,22 @@
  * @author PC
  */
 public class Precio {
-      private  double euros;
-    public double obtener(){
-      return euros;  
+
+    private double euros;
+// metodo set
+    public double obtener() {
+        return euros;
     }
-    public void agregar(double x){
+//metodo get
+    public void agregar(double x) {
         euros = x;
     }
-    public Precio(){
+// son contructores los cuales nos va a dar por predeterminado los valores.
+    public Precio() {
         agregar(302);
     }
-    public Precio(double y){
+
+    public Precio(double y) {
         agregar(y);
     }
 }
