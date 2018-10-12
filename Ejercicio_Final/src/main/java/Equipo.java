@@ -8,14 +8,6 @@
  *
  * @author PC
  */
-public class Precio {
-    private double euros;
-
-    public double obtener() {
-        return euros;
-    }
-
-    public void agregar(double x) {
-        euros = x;
-    }
+public class Equipo {
+    
 }

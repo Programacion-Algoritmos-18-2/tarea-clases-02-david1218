@@ -9,11 +9,12 @@
  * @author PC
  */
 public class Principal {
-     public static void main (String[] args){
+
+    public static void main(String[] args) {
         Precio p;
-        p= new Precio ();
+        p = new Precio();
         System.out.println(p.euros);
         p.euros = 101;
-         System.out.println(p.euros);
+        System.out.println(p.euros);
     }
 }

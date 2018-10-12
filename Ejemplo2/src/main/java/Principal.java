@@ -9,14 +9,14 @@
  * @author PC
  */
 public class Principal {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Precio p;
-        p= new Precio ();
-       // System.out.println(p.euros);
+        p = new Precio();
+        // System.out.println(p.euros);
         //p.euros = 101;
-         //System.out.println(p.euros);
-         p.agregar(20.2);
-         System.out.println("El valor es:");
-         System.out.println(p.obtener());
+        //System.out.println(p.euros);
+        p.agregar(20.2);
+        System.out.println("El valor es:");
+        System.out.println(p.obtener());
     }
 }

@@ -9,12 +9,15 @@
  * @author PC
  */
 public class Precio {
+
     double euros;
-    public double obtener(){
-      return euros;  
+
+    public double obtener() {
+        return euros;
     }
-    public void agregar(double x){
-        
+
+    public void agregar(double x) {
+
     }
     
 }
